@@ -3,33 +3,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
     <EditText
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:id="@+id/first_name"
+        android:hint="first name"
         style="@style/positioning"
-        android:hint="@string/username"/>
-    <requestFocus/>
+        />
     <EditText
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:id="@+id/last_name"
+        android:hint="last name"
         style="@style/positioning"
-        android:hint="@string/password"/>
-    <requestFocus/>
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number"
+        android:hint="number"
+        style="@style/positioning"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="email"
+        style="@style/positioning"
+        />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:id="@+id/registered"
+        android:hint="Registered"
         style="@style/buttonPositioning"/>
-    <Button
-        android:id="@+id/sign_up"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/buttonPositioning"
-        android:text="@string/sign_in"/>
-
 
 </LinearLayout>

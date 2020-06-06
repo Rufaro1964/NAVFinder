@@ -13,4 +13,5 @@
     <string name="password">password</string>
     <string name="login">Login</string>
     <string name="sign_in">Sign In</string>
+    <string name="Registered">Registered</string>
 </resources>
